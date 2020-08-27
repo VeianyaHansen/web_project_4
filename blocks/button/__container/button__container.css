@@ -1,0 +1,21 @@
+.button__container {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    align-self: flex-end;
+    display: flex;
+    background-color: #000000;
+  }
+  
+.button__container:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}  
+
+@media screen and (min-width: 999px) {
+  .button__container {
+    height: 24px;
+    width: 24px;
+ }
+} 

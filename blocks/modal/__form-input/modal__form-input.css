@@ -1,0 +1,26 @@
+.modal__form-input {
+  margin: 0 0 29px 36px;
+  padding: 13px 13px 13px 0;
+  box-sizing: border-box;
+  border: none;
+  width: 227px;
+  height: 0;
+  border-bottom: 1px solid #000000;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  outline: none;
+}
+
+.modal__form-input::placeholder {
+  opacity: 0.2;
+}
+
+@media screen and (min-width: 524px) {
+  .modal__form-input {
+    width: 358px;
+  }
+}

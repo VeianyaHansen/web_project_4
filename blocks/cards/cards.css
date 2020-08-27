@@ -1,0 +1,33 @@
+.cards {
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+@media screen and (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 0;
+    width: 580px;
+    padding-top: 30px;
+   }
+}  
+
+@media screen and (min-width: 768px) {
+  .cards {
+    gap: 25px 0;
+    width: 620px;
+   }
+} 
+
+@media screen and (min-width: 999px) {
+  .cards {
+    padding-top: 47.25px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px 18px;
+    width: 882px;
+   }
+} 

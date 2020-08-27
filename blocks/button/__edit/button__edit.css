@@ -1,0 +1,12 @@
+.button__edit {
+  height: 7.5px;
+  width: 7.5px;
+  align-self: center;
+}
+
+@media screen and (min-width: 999px) {
+  .button__edit {
+    height: 10px;
+    width: 10px;
+ }
+} 
