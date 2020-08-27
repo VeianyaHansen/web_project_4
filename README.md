@@ -4,8 +4,8 @@ A mobile first, responsive web page built with HTML5, CSS3, and JavaScript. The 
 
 ### Overview
 
-**Around The U.S.** is an interactive page where users can add, remove, or like photos
+**Around The U.S.** is an interactive page where users can add, remove, or like photos.
 
 ### GitHub Pages
 
-A link to view the project on GitHub pages will be available here soon.
+**[View here](https://veianyahansen.github.io/web_project_4/).**
