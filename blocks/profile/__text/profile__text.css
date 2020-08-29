@@ -1,7 +1,6 @@
 .profile__text {
-    width: 280px;
+    min-width: 280px;
     min-height: 14px;
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -14,7 +13,7 @@
 
   @media screen and (min-width: 768px) {
     .profile__text {
-      width: 318px;
+      min-width: 318px;
       min-height: 18px;
       font-size: 16px;
       line-height: 10px;
@@ -23,14 +22,6 @@
   }
 
   @media screen and (min-width: 999px) {
-    .profile__text {
-      text-align: left;
-      line-height: 22px;
-      font-size: 18px;
-     }
-  }
-
-  @media screen and (min-width: 1280px) {
     .profile__text {
       text-align: left;
       line-height: 22px;

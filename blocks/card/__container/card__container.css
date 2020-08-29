@@ -1,13 +1,9 @@
 .card__container {
-    width: 282px;
+    min-width: 282px;
     margin: 0 auto;
     padding: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-  }
-
-.card__container_title {
-    height: 79px;
-    background-color: #ffffff;
-    display: flex;  
+    align-items: center;
+    justify-content: space-between;
   }

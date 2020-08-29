@@ -2,32 +2,30 @@
     margin: 0 auto;
     padding: 0;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, 282px);
     gap: 20px;
+    justify-content: center;
   }
 
 @media screen and (min-width: 600px) {
   .cards {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px 0;
-    width: 580px;
+    gap: 15px;
+    max-width: 580px;
     padding-top: 30px;
    }
 }  
 
 @media screen and (min-width: 768px) {
   .cards {
-    gap: 25px 0;
-    width: 620px;
+    gap: 25px;
+    max-width: 620px;
    }
 } 
 
 @media screen and (min-width: 999px) {
   .cards {
     padding-top: 47.25px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     gap: 20px 18px;
-    width: 882px;
+    max-width: 882px;
    }
 } 

@@ -1,45 +1,11 @@
 @import url(./__text/footer__text.css);
 
 .footer {
-    width: 282px;
-    height: 14px;
-    padding: 48px 19px 36px;
-  }
-
-@media screen and (min-width: 360px) {
-  .footer {
-    padding: 48px 40px 36px;
-  }
-} 
-
-@media screen and (min-width: 420px) {
-  .footer {
-    padding: 48px 65px 36px;
-  }
-} 
-
-@media screen and (min-width: 470px) {
-  .footer {
-    padding: 48px 92px 36px;
-  }
-} 
-
-@media screen and (min-width: 600px) {
-  .footer {
-    padding: 48px 19px 36px;
-  }
-} 
-
-@media screen and (min-width: 768px) {
-  .footer {
-    padding: 48px 19px 36px;
-  }
-} 
+  padding: 48px 19px 36px;
+}
 
 @media screen and (min-width: 1280px) {
   .footer {
-    height: 18px; 
-    width: 318px;
     padding: 66px 199px 60px;
   }
 }   

@@ -1,13 +1,12 @@
 .modal__close-button {
   position: absolute;
-  margin-top: -373px;
-  margin-right: -265px;
+  bottom: 319px;
+  left: 242px;
 }
 
 @media screen and (min-width: 524px) {
   .modal__close-button {
-    margin-top: -365px;
-    margin-right: -471px;
+    left: 418px;
    }
 } 
 
