@@ -1,7 +1,7 @@
 .card__heart{
   background-image: url("../../../images/heartimg.svg");
-  min-width: 23px;
-  min-height: 19px;
+  width: 23px;
+  height: 19px;
   border: none;
   background-size: cover;
   margin-right: 22px;

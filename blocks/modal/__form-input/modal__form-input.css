@@ -1,10 +1,8 @@
 .modal__form-input {
-  margin: 0 0 29px 36px;
-  padding: 13px 13px 13px 0;
+  margin: 0 0 36px;
+  padding: 13px 0 0;
   box-sizing: border-box;
   border: none;
-  max-width: 227px;
-  max-height: 25px;
   border-bottom: 1px solid #000000;
   font-style: normal;
   font-weight: normal;
@@ -12,6 +10,7 @@
   line-height: 17px;
   color: #000000;
   outline: none;
+  width: calc(100% - 72px);
 }
 
 .modal__form-input:last-of-type {
@@ -20,10 +19,4 @@
 
 .modal__form-input::placeholder {
   opacity: 0.2;
-}
-
-@media screen and (min-width: 524px) {
-  .modal__form-input {
-    min-width: 358px;
-  }
 }

@@ -1,6 +1,6 @@
-.modal__button-save {
-  min-width: 272px;
-  min-height: 50px;
+.modal__save-button {
+  width: 272px;
+  height: 50px;
   background: #000000;
   border-radius: 2px;   
   margin: 0 auto;
@@ -13,12 +13,12 @@
 }
 
 @media screen and (min-width: 524px) {
-  .modal__button-save {
-    min-width: 358px;
+  .modal__save-button {
+    width: 358px;
   }
 }
 
-.modal__button-save:hover {
+.modal__save-button:hover {
   background: rgba(0, 0, 0, 0.8);  
   cursor: pointer;
 }

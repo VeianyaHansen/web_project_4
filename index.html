@@ -1,122 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pages/index.css">    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/index.css" />
     <title>Around The U.S.</title>
-</head>
+  </head>
 
-<body class="page">
-  <div class="page__container">
-    <header class="header">
-      <img class="header__logo" src="./images/LogoWhiteImg.svg" alt="Logo">
-    </header>
+  <body class="page">
+    <div class="page__container">
+      <header class="header">
+        <img class="header__logo" src="./images/LogoWhiteImg.svg" alt="Logo" />
+      </header>
 
-    <main>
-      <section class="profile">
-        <img class="profile__avatar" src="./images/JacquesCousteauImg.jpg"
-          alt="picture of Jacques Cousteau">
-        <div class="profile__info">
-          <div class="profile__container">
-            <h1 class="profile__heading">
-              Jacques Cousteau</h1>
-            <button class="button__edit"></button>             
-          </div>  
-          <p class="profile__text">Explorer</p>          
-        </div>
-        <button class="button__add"></button>
-      </section>  
+      <main>
+        <section class="profile">
+          <img
+            class="profile__avatar"
+            src="./images/JacquesCousteauImg.jpg"
+            alt="picture of Jacques Cousteau"
+          />
+          <div class="profile__info">
+            <div class="profile__container">
+              <h1 class="profile__heading">Jacques Cousteau</h1>
+              <button class="profile__edit-button" type="button"></button>
+            </div>
+            <p class="profile__text">Explorer</p>
+          </div>
+          <button class="profile__add-button" type="button"></button>
+        </section>
 
-      <section>
-        <ul class="cards">
-          <li class="card">
-            <div class="card__container">
-              <img class="card__image" src="./images/Yosemite.jpg"
-              alt="Yosemite Valley">
+        <section>
+          <ul class="cards">
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/Yosemite.jpg"
+                alt="Yosemite Valley"
+              />
               <div class="card__description">
                 <h2 class="card__title">Yosemite Valley</h2>
-                <button class="card__heart"></button>                
+                <button class="card__heart" type="button"></button>
               </div>
-            </div>
-          </li>
-          <li class="card">
-            <div class="card__container">
-              <img class="card__image" src="./images/Louise.jpg"
-              alt="Lake Louise">
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/Louise.jpg"
+                alt="Lake Louise"
+              />
               <div class="card__description">
                 <h2 class="card__title">Lake Louise</h2>
-                <button class="card__heart"></button>                                     
+                <button class="card__heart" type="button"></button>
               </div>
-            </div>
-          </li>
-          <li class="card">
-            <div class="card__container">
-              <img class="card__image" src="./images/Mountains.jpg"
-              alt="Bald Mountains">
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/Mountains.jpg"
+                alt="Bald Mountains"
+              />
               <div class="card__description">
                 <h2 class="card__title">Bald Mountains</h2>
-                <button class="card__heart"></button>                                    
+                <button class="card__heart" type="button"></button>
               </div>
-            </div>
-          </li>
-          <li class="card">
-            <div class="card__container">
-              <img class="card__image" src="./images/Latemar.jpg"
-              alt="Latemar">
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/Latemar.jpg"
+                alt="Latemar"
+              />
               <div class="card__description">
                 <h2 class="card__title">Latemar</h2>
-                <button class="card__heart"></button>                   
+                <button class="card__heart" type="button"></button>
               </div>
-            </div>
-          </li>
-          <li class="card">
-            <div class="card__container">
-              <img class="card__image" src="./images/Vanoise.jpg" 
-              alt="Vanoise National Park">
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/Vanoise.jpg"
+                alt="Vanoise National Park"
+              />
               <div class="card__description">
                 <h2 class="card__title">Vanoise National Park</h2>
-                <button class="card__heart"></button>                                    
+                <button class="card__heart" type="button"></button>
               </div>
-            </div>
-          </li>
-          <li class="card">
-            <div class="card__container">
-              <img class="card__image" src="./images/Lago.jpg" 
-              alt="Lago di Braies">
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/Lago.jpg"
+                alt="Lago di Braies"
+              />
               <div class="card__description">
                 <h2 class="card__title">Lago di Braies</h2>
-                <button class="card__heart"></button>                                    
+                <button class="card__heart" type="button"></button>
               </div>
-            </div>
-          </li>
-        </ul>
-      </section>
-    </main>
+            </li>
+          </ul>
+        </section>
+      </main>
 
-    <footer class="footer">
-      <p class="footer__text">&#169; 2020 Around The U.S.</p>
-    </footer>
+      <footer class="footer">
+        <p class="footer__text">&#169; 2020 Around The U.S.</p>
+      </footer>
 
-    <div class="modal">
-      <div class="modal__container">
-        <button class="modal__button"><img class="modal__close-button" src="./images/closeiconimg.svg"
-        alt="close button"></button>
-        <form class="modal__form" action="#">
-          <h2 class="modal__title">Edit Profile</h2>
-          <input type="text" 
-            class="modal__form-input modal__form-input_type_name" 
-            placeholder="Name">
-          <input type="text"
-            class="modal__form-input modal__form-input_type_about-me" 
-            placeholder="About Me">
-          <button type="submit" class="modal__button-save" 
-            value="Save">Save</button>
-        </form>      
+      <div class="modal">
+        <div class="modal__container">
+          <button class="modal__close-button" type="button"></button>
+          <form class="modal__form" action="#">
+            <h2 class="modal__title">Edit Profile</h2>
+            <input
+              type="text"
+              class="modal__form-input modal__form-input_type_name"
+              placeholder="Name"
+            />
+            <input
+              type="text"
+              class="modal__form-input modal__form-input_type_about-me"
+              placeholder="About Me"
+            />
+            <button type="submit" class="modal__save-button" value="Save">
+              Save
+            </button>
+          </form>
+        </div>
       </div>
     </div>
-
-  </div>
-  <script src="scripts/index.js"></script>    
-</body>
+    <script src="scripts/index.js"></script>
+  </body>
 </html>

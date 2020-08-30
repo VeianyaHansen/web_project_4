@@ -1,15 +1,9 @@
 @import url(./__logo/header__logo.css);
 
 .header {
-    padding: 28px 27px 32px;
+    padding: 28px 0 0;
     position: relative;
   }
-
-@media screen and (min-width: 1280px) {
-  .header {
-    padding: 28px 200px 35px;
-  }   
-} 
 
 .header:after {
   content: '';
@@ -24,12 +18,5 @@
 @media screen and (min-width: 768px) {
   .header:after {
     top: 100px;
-  }
-} 
-
-@media screen and (min-width: 1280px) {
-  .header:after {
-    max-width: 882px;
-    margin: 0 200px;
   }
 } 

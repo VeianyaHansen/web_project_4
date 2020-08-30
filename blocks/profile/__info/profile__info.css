@@ -6,7 +6,6 @@
 
 @media screen and (min-width: 999px) {
   .profile__info {
-    min-height: 120px;
     padding: 58px 0 0;
   }
 } 
