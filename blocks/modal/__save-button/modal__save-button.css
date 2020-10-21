@@ -10,6 +10,7 @@
   line-height: 22px;
   text-align: center;
   color: #FFFFFF;
+  border-color: transparent;
 }
 
 @media screen and (min-width: 524px) {

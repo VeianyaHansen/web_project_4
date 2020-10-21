@@ -12,21 +12,34 @@ form.addEventListener("submit", (e) => {
 
   profileName.textContent = inputName.value;
   profileAboutMe.textContent = inputAboutMe.value;
-  // = is
-  // == is equal
-  // === is exactly equal
+
   toggleModal();
 });
 
 function toggleModal() {
-  modal.classList.toggle("modal_is-open"); // add, remove, toggle
+  if (!modal.classList.contains("modal_is-open")) {
+    inputName.value = profileName.textContent;
+    inputAboutMe.value = profileAboutMe.textContent;
+  }
+  modal.classList.toggle("modal_is-open");
 }
 
 editButton.addEventListener("click", toggleModal);
 
 closeButton.addEventListener("click", toggleModal);
 
-/*closeButton.addEventListener('click', () => {
+/*
+    Trying to make the needed function...
+
+   :(
+
+
+}
+
+
+     Not sure what this was from...
+
+closeButton.addEventListener('click', () => {
   
   inputName.value = "";
   
